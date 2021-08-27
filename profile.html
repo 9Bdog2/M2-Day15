@@ -23,6 +23,7 @@
     h1{
       color: white;
       font-size: xxx-large;
+      text-align: center;
     }
     h5{
       color: rgb(128, 128, 128);
@@ -78,65 +79,65 @@
       </div>
       <!-- Netflix Picture -->
       <!-- First part -->
-      <div class="row"></div>
-        <div class="col-12 mt-5 center-part">
-            <h1>Edit Profile</h1>
-            <hr>
-        </div>
-            <div class="col-12 col-xl-6 center-part">
-              <div><img src="./assets/strive.png" class="profile-picture" ><!-- <img src="./assets/edit-picture.png"></img> --></img></div>
-              <div>
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        <div class="row">
+          <div class="col-12 mt-5">
+              <h1>Edit Profile</h1>
+              <hr>
+          </div>
+              <div class="col-12 col-xl-6 ">
+                <div><img src="./assets/strive.png" class="profile-picture" ><img src="./assets/edit-picture.png" width="50"  height="50" style="border-radius: 50%;"></img></img></div>
+                
               </div>
-              <div><h5>Language:</h5>
-                <div class="dropdown">
+              <div class="col-12 col-xl-6 ">
+                <div>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <div><h5>Language:</h5></div>
+              <div class="dropdown">
                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
+                      Dropdown
                   </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button">German</button>
-                    <button class="dropdown-item" type="button">French</button>
-                    <button class="dropdown-item" type="button">Spanish</button>
-                  </div>
+                </div>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <button class="dropdown-item" type="button">German</button>
+                      <button class="dropdown-item" type="button">French</button>
+                      <button class="dropdown-item" type="button">Spanish</button>
+               
                 </div>
               </div>
-            </div>
         </div>
         <!-- First part -->
         <!-- Second part -->
         <div class="row"></div>
-          <div class="col-12 center-part">
+          <div class="col-12 col-xl-6 center-part">
               <hr>
               <h5>Maturity Settings:</h5>
               <button type="button" class="btn btn-secondary">All MATURITY RATINGS</button>
+              <h6>Show Titles of all maturity ratings for this profile.</h6>
+              <button type="button" class="btn btn-secondary">Edit</button>
           </div>
-          <div class="col-12  center-part">
-            <h6>Show Titles of all maturity ratings for this profile.</h6>
-            <button type="button" class="btn btn-secondary">Edit</button>
-        </div>
         </div>
         <!-- Second part -->
         <!-- Third part -->
         <div class="row"></div>
-          <div class="col-12  center-part">
+          <div class="col-12 col-xl-6 center-part">
               <hr>
               <h5>Autoplay controls</h5>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Autoplay next episode in a series on all devices</label>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Autoplay previews while browsing on all devices</label>
+              </div>
           </div>
-          <div class="col-12  center-part">
-            <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Autoplay next episode in a series on all devices</label>
-            </div>
-            <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Autoplay previews while browsing on all devices</label>
-            </div>
         </div>
         <!-- Third part -->
         <!-- Fourth part -->
-        <div class="row"></div>
-          <div class="col-12  center-part">
+        <div class="row">
+          <div class="col-12 col-xl-6 center-part">
               <hr>
               <h5>Autoplay controls</h5>
               <button type="button" class="btn btn-secondary btn-lg">Save</button>
@@ -145,6 +146,7 @@
           </div>
         </div>
         <!-- Fourth part -->
+      </div> 
     </div>
   </div>
   <!-- Main container -->
