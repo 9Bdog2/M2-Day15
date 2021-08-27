@@ -38,6 +38,10 @@
       
     }
 
+    .form-check-label{
+      color: white;
+    }
+
     .main-container{
       background-color: rgb(14, 14, 14);
       width: 87%;
@@ -60,11 +64,21 @@
     }
 
     .btn-secondary {
-    background-color: rgba(0, 0, 0, 0); 
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0; 
+    }
+
+    .btn-secondary:hover {
+      background-color: rgba(241, 241, 241, 0.959);
+      color: black; 
     }
 
     .form-control{
       background-color: #545454;
+    }
+
+    .last-btn{
+      margin-right: 15px;
     }
 
     </style>
@@ -123,7 +137,7 @@
               <h5>Maturity Settings:</h5>
               <button type="button" class="btn btn-secondary">All MATURITY RATINGS</button>
               <h6>Show Titles of all maturity ratings for this profile.</h6>
-              <button type="button" class="btn btn-secondary">Edit</button>
+              <button type="button" class="btn btn-secondary">EDIT</button>
           </div>
         </div>
         <!-- Second part -->
@@ -147,10 +161,9 @@
         <div class="row">
           <div class="col-12 col-xl-6 center-part">
               <hr>
-              <h5>Autoplay controls</h5>
-              <button type="button" class="btn btn-secondary btn-lg">Save</button>
-              <button type="button" class="btn btn-secondary btn-lg">Cancel</button>
-              <button type="button" class="btn btn-secondary btn-lg">Delete Profile</button>
+              <button type="button" class="btn btn-secondary btn-lg last-btn">SAVE</button>
+              <button type="button" class="btn btn-secondary btn-lg last-btn">CANCEL</button>
+              <button type="button" class="btn btn-secondary btn-lg last-btn">DELETE PROFILE</button>
           </div>
         </div>
         <!-- Fourth part -->
